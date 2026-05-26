@@ -11,12 +11,13 @@ BSCSCAN_API = os.environ.get("BSCSCAN_API_KEY")
 
 WALLETS = {
     "eth": [
-        "0xWalletAddress1",
-    ],
-    "bsc": [
-        "0xWalletAddress2",
-    ],
-}
+    "0x28C6c06298d514Db089934071355E5743bf21d60",
+    "0xF977814e90dA44bFA03b6295A0616a897441aceC",
+    "0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503",
+],
+"bsc": [
+    "0x8894E0a0c962CB723c1976a4421c95949bE2D4E3",
+    "0xF977814e90dA44bFA03b6295A0616a897441aceC",
 
 MIN_VALUE_50K = 50000
 MIN_VALUE_100K = 100000
